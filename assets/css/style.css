@@ -1,2 +1,39 @@
+*{
+    background: rgb(white, white, white);
+}
 
+head {
+    display: flex;
+}
 
+header {
+    display: flex;
+}
+ p {
+    display: flex;
+    font-size: medium;
+ }
+
+ html {
+    scroll-behavior: smooth;
+ }
+
+ .About {
+
+ }
+
+ .Project {
+
+ }
+
+ .Contact {
+
+ }
+
+ #contact-1 {
+
+ }
+
+ #contact-2 {
+
+ }
