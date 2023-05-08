@@ -1,32 +1,87 @@
 *{
-    background: rgb(white, white, white);
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background: var(--Tangopink);
 }
 
-head {
-    display: flex;
+:root {
+
+    --plantinum: #EBE8E7;
+    --Tangopink: #EA7186;
+    --Organgeyellow: #F2C76E;
+    --toolbox: #7A7789;
+    --brightlavender: #BD9DEA;
+
 }
+
+html {
+    scroll-behavior: smooth;
+ }
 
 header {
-    display: flex;
+    display: block;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;     
 }
- p {
+
+.name {
+    font-size: 3rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    color: var(--plantinum);
+    
+}
+
+nav {
+    font-size: 2rem;
+    color: var(--Orangeyello);
+    border: 
+       
+} 
+
+#navigate {
+    display: inline;
+    color: orange;
+    
+}
+
+p {
     display: flex;
     font-size: medium;
  }
 
- html {
-    scroll-behavior: smooth;
+
+ .About_Me {
+    display: flex;
  }
 
- .About {
-
+ .Projects {
+    display: block;
+ }
+ 
+ #space_around {
+    justify-content: space-around;
  }
 
- .Project {
+ .image_zoom:hover img {
+   transform: scale(1:!);
 
  }
-
  .Contact {
+    display: block;
+    height: 100%;
+    position: relative;
+    margin: 0 auto;
+    
+ }
+ contact .a {
+    text-decoration: none;
+ }
+
+ contact .form {
+
 
  }
 
@@ -37,3 +92,31 @@ header {
  #contact-2 {
 
  }
+
+
+ *, :after,
+ :before {
+    box-sizing: border-box;
+ } 
+
+ 
+ @media screen and (min-width: 992px) {
+    main,
+    .About_Me {
+      flex-direction: row;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    main,
+    .About_Me {
+      flex-direction: row;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    main,
+    .About_Me {
+      flex-direction: row;
+    }
+  }
