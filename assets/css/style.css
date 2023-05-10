@@ -1,122 +1,189 @@
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    background: var(--Tangopink);
+body {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+   background: var(--Tangopink);
 }
 
 :root {
 
-    --plantinum: #EBE8E7;
-    --Tangopink: #EA7186;
-    --Organgeyellow: #F2C76E;
-    --toolbox: #7A7789;
-    --brightlavender: #BD9DEA;
+   --plantinum: #EBE8E7;
+   --Tangopink: #EA7186;
+   --Organgeyellow: #F2C76E;
+   --toolbox: #7A7789;
+   --brightlavender: #BD9DEA;
 
 }
 
 html {
-    scroll-behavior: smooth;
- }
+   scroll-behavior: smooth;
+}
 
 header {
-    display: block;
-    justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;     
+   display: block;
+   justify-content: center;
+   font-family: 'Georgia', Roboto, Open Sans, Helvetica Neue, sans-serif position:
+   top: 0;
+   padding: 5px;
 }
 
 .name {
-    font-size: 3rem;
-    margin-top: 1rem;
-    display: flex;
-    justify-content: center;
-    color: var(--plantinum);
-    
+   font-size: 80px;
+   font-family: Roboto, 'Open Sans';
+   display: flex;
+   justify-content: center;
+   color: var(--plantinum);
+
 }
 
-nav {
-    font-size: 2rem;
-    color: var(--Orangeyello);
-    border: 
-       
-} 
+li {
+   list-style: none;
+}
+
+.navbar {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   padding: 20px;
+   background-color: var(--toolbox);
+   font-size: 60px;
+   color: var(--Orangeyello);
+
+}
 
 #navigate {
-    display: inline;
-    color: orange;
-    
+   color: orange;
+   background-color: none;
+
+}
+
+.fig {
+   position: relative;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   position: relative;
+   text-align: center;
+   z-index: +1;
+
+}
+
+.fig figure{
+   background-image: url(/assets/images/background_imageP.png);
+   height: 754px;
+   width: 100%;
+   display: block;
+   background-size: cover;
+   margin: 0 0;
+   display: flex;
+}
+
+.text_image {
+   /* position: absolute; */
+   justify-content: left;
+   
+   /* left: 100px; */
+   /* margin: ; */
+   font-size: 3em;
+   /* color: var(--brightlavender); */
 }
 
 p {
-    display: flex;
-    font-size: medium;
- }
+   display: flex;
+
+}
+
+.About {
+   margin: 10px 5px 10px 25px;
+   font-size: 40px;
+}
+
+p.About_margin {
+   display: flex;
+   margin: 20px 5px 10px 50px;
+   font-size: 30px;
+}
 
 
- .About_Me {
-    display: flex;
- }
+p.About {
+   background: url(./assets/images/Background_image.png) no-repeat;
+   z-index: -1;
+   position: absolute;
+   width: auto;
+   height: auto;
 
- .Projects {
-    display: block;
- }
- 
- #space_around {
-    justify-content: space-around;
- }
-
- .image_zoom:hover img {
-   transform: scale(1:!);
-
- }
- .Contact {
-    display: block;
-    height: 100%;
-    position: relative;
-    margin: 0 auto;
-    
- }
- contact .a {
-    text-decoration: none;
- }
-
- contact .form {
+}
 
 
- }
+.Projects {
+   margin: 10px 5px 10px 25px;
+   font-size: 40px;
+}
 
- #contact-1 {
+.flex_image {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   margin: 10px 10px 10px 20px;
 
- }
+}
 
- #contact-2 {
+image_zoom {
+   width: 400px;
+   height: 400px;
+   transition: tansform 0.3s ease;
+}
 
- }
+.image_zoom:hover {
+   transform: scale(1.2);
+
+}
+
+.Contact {
+   display: inline;
+   height: 100%;
+   position: relative;
+   margin: 0 auto;
+   margin: 20px 5px 10px 25px;
+   font-size: 40px;
+
+}
+
+a.contact_link {
+   display: inline;
+   text-decoration: none;
+   margin: 40px 5px 10px 50px;
+
+}
+
+.form_contact {
+   display: block;
+   margin: 50px 5px 10px 50px;
+
+}
 
 
- *, :after,
- :before {
-    box-sizing: border-box;
- } 
+footer {
+   display: block;
+   align-items: center;
+}
 
- 
- @media screen and (min-width: 992px) {
-    main,
-    .About_Me {
+@media screen and (min-width: 992px) {
+   main {
       flex-direction: row;
-    }
-  }
+   }
+}
 
-  @media screen and (min-width: 768px) {
-    main,
-    .About_Me {
+@media screen and (min-width: 768px) {
+   main {
       flex-direction: row;
-    }
-  }
+   }
+}
 
-  @media screen and (max-width: 768px) {
-    main,
-    .About_Me {
-      flex-direction: row;
-    }
-  }
+@media screen and (max-width: 768px) {
+
+   main,
+   {
+   flex-direction: row;
+}
+}

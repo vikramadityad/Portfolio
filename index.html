@@ -1,73 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-    <title>Vikram - Research, Product, Startup, and Software since 2016</title>
-    <link rel="icon" type="Image" href="./assets/images/Avatar_Vikram2.png">  
-  </head>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comme&family=Roboto&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+  <title>Vikram - Research, Product, Startup, and Software since 2016</title>
+  <link rel="icon" type="Image" href="./assets/images/Avatar_Vikram2.png">
+</head>
+
+
+
+<body>
+
+  <header>
+    <h1 class="name">Vikram Aditya Devaguptapu</h1>
+  </header>
+
+  <nav class="navbar">
+    <ul>
+      <li><a id="navigate" href="#About_Me">About Me</a></li>
+      <li><a id="navigate" href="#Projects">Projects</a></li>
+      <li><a id="navigate" href="#Contact">Contact</a></li>
+    </ul>
+  </nav>
 
   <main>
-    <body>
-      <header>
-        <h1 class="name">Vikram Aditya Devaguptapu</h1>
-        <nav>
-          <a id="navigate" href="About_Me">About Me</a>
-          <a id="navigate" href="Projects">Projects</a>
-          <a id="navigate" href="Contact">Contact</a>
-        </nav>
-      </header>
-      
-      <section class="About me">
-        <h2 id="About_Me">About Me</h2>
-        <!--
-        <figure>
-          <img src="./assets/images/Avatar_Vikram.png" alt="Vikram's Avatar"
-            id="avatar">
-        </figure>
-        -->
-        <p>
-          As an ambitious and driven entrepreneur, I founded a healthcare startup called ServUs Health in 2017 
-          based on my research at the University of New Brunswick. From conducting beta and pilot studies to 
-          achieving seed-ready status, I have played a crucial role in every step of the building process. 
-          Collaborating with my skilled technology team, I not only responsible for the product development & 
-          strategy but also honed my own coding skills. As a result, I am proud to have become a proficient 
-          full-stack developer with a well-rounded perspective on building successful businesses.
-        </p>        
-      </section>
 
-      <section class="Projects">
-        <h2 id="Projects">Projects</h2>
-        <div id="space_around" class="image_zoom">
-          <a href="https://github.com/vikramadityad/WebStatic_1page"> <img border="1" alt="Project 1 - Semantic HTML"
-            src="./assets/images/Semantic_HTML_project.png" width="400" height="400"> </a>
-          <a href="https://github.com/vikramadityad/Portfolio"> <img border="1" alt="Project 2 - HTML_CSS"
-            src="./assets/images/HTML_CSS.jpeg" width="400" height="400"> </a>  
-          <a href="https://github.com/vikramadityad"> <img border="1" alt=" Upcoming_Project - HTML_CSS_Javascript"
-              src="./assets/images/HTML_CSS_Javascript.png" width="400" height="400"> </a>   
-        </div>
-            
-      </section>
+    <section class="fig">
+      <figure>
+        <!-- <img src="./assets/images/Background_imageP.png" alt="Vikram's Background Image"> -->
+        <pre class="text_image">
+        From problem validation 
+        to solution development 
+        with full stack mastery</pre>
+      </figure>
+    </section>
 
-      <section class="Contact">
-        <h2 id="Contact">Contact</h2>
-        <a href="https://https://github.com/vikramadityad">GitHub</a>
-        <a href="https://ca.linkedin.com/in/vikramad">LinkedIn</a>
-        <form>
-            <label for="fname">First name:</label><br>
-            <input type="text" id="fname"><br>
-            <label for="lname">Last name:</label><br>
-            <input type="text" id="lname"><br>
-            <label for="message">Your Message:</label><br>
-            <input type="text" id="message"><br><br>
-            <input type="submit">
-          </form>
-      </section>
+    <section id="About_Me" class="About">
+      <h2>About Me</h2>
+      <p class="About_margin">
+        As an ambitious and driven entrepreneur, I founded a healthcare startup called ServUs Health in 2017
+        based on my research at the University of New Brunswick. From conducting beta and pilot studies to
+        achieving seed-ready status, I have played a crucial role in every step of the building process.
+        Collaborating with my skilled technology team, I not only responsible for the product development &
+        strategy but also honed my own coding skills. As a result, I am proud to have become a proficient
+        full-stack developer with a well-rounded perspective on building successful businesses.
+      </p>
+    </section>
 
-      <footer>
+    <section id="Projects" class="Projects">
+      <h2>Projects</h2>
+      <div class="flex_image">
+        <a href="https://github.com/vikramadityad/WebStatic_1page"> <img class="image_zoom" border="2"
+            alt="Project 1 - Semantic HTML" src="./assets/images/Semantic_HTML_project.png" width="400" height="400">
+        </a>
+        <a href="https://github.com/vikramadityad/Portfolio"> <img class="image_zoom" border="2"
+            alt="Project 2 - HTML_CSS" src="./assets/images/HTML_CSS.jpeg" width="400" height="400"> </a>
+        <a href="https://github.com/vikramadityad"> <img class="image_zoom" border="2"
+            alt=" Upcoming_Project - HTML_CSS_Javascript" src="./assets/images/HTML_CSS_Javascript.png" width="400"
+            height="400"> </a>
+      </div>
+    </section>
 
-      </footer>
-    </body>
-  </main>
+    <section id="Contact" class="Contact">
+      <h2>Contact</h2>
+      <a class="contact_link" href="https://https://github.com/vikramadityad" target="_blank">GitHub</a>
+      <a class="contact_link" href="https://ca.linkedin.com/in/vikramad">LinkedIn</a>
+      <form class="form_contact">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname"><br>
+        <label for="message">Your Message:</label><br>
+        <input type="text" id="message"><br><br>
+        <input type="submit">
+      </form>
+    </section>
+
+  </main>√
+
+  <footer>
+    <p>&copy; 2023 Vikram Aditya Devaguptapu</p>
+    <p> All rights reserved</p>
+
+  </footer>
+
+</body>
+
 </html>
