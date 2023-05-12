@@ -23,8 +23,7 @@ html {
 header {
    display: block;
    justify-content: center;
-   font-family: Georgia, 'Roboto', Open Sans, Helvetica Neue, sans-serif position: top: 0;
-   padding: 5px;
+   font-family: Georgia, 'Roboto', Open Sans, Helvetica Neue, sans-serif;
 }
 
 .name {
@@ -89,9 +88,7 @@ li {
 
    left: 0px;
    font-size: 50px;
-   color:var(--toolbox)
-
-
+   color: var(--toolbox)
 }
 
 p {
@@ -102,7 +99,7 @@ p {
 .About {
    margin: 10px 5px 10px 25px;
    font-size: 40px;
-} 
+}
 
 .Projects {
    display: flex;
@@ -204,9 +201,10 @@ footer p {
 
 @media screen and (max-width: 768px) {
 
-   main,
-   {
-   flex-direction: row;
+   main {
 
-}
+      flex-direction: row;
+   }
+   
+
 }
