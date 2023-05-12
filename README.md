@@ -22,3 +22,9 @@ The Contact section provides contact information and includes a form to send a m
 
 Footer
 The footer section displays a copyright notice.
+
+
+<img width="1753" alt="Screenshot 2023-05-11 at 11 45 51 PM" src="https://github.com/vikramadityad/Portfolio/assets/28673859/7a5ed164-9225-419e-9baf-fe5f19d6473b">
+<img width="2024" alt="Screenshot 2023-05-11 at 11 46 04 PM" src="https://github.com/vikramadityad/Portfolio/assets/28673859/c3f59420-c917-4b05-90f6-68a022fdd20b">
+<img width="2013" alt="Screenshot 2023-05-11 at 11 46 12 PM" src="https://github.com/vikramadityad/Portfolio/assets/28673859/ac62f382-ca83-41a4-8248-6680172fb6d4">
+
