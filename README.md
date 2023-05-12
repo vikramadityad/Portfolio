@@ -23,7 +23,7 @@ The Contact section provides contact information and includes a form to send a m
 Footer
 The footer section displays a copyright notice.
 
-The link to Deployed application: 
+The link to Deployed application: https://vikramadityad.github.io/Portfolio/
 
 The screenshot of the website is below:
 <img width="1753" alt="Screenshot 2023-05-11 at 11 45 51 PM" src="https://github.com/vikramadityad/Portfolio/assets/28673859/7a5ed164-9225-419e-9baf-fe5f19d6473b">
