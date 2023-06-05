@@ -1,4 +1,4 @@
-body {
+ body {
    box-sizing: border-box;
    padding: 0;
    margin: 0;
@@ -62,27 +62,17 @@ li {
 
 }
 
-.fig {
+
+.image_back {
    display: flex;
    flex-wrap: wrap;
    justify-content: center;
-   position: relative;
    text-align: center;
-   z-index: 0;
+  
 
 }
 
-.fig {
-   background-image: url(/assets/images/background_imageP.png);
-   height: 754px;
-   width: 100%;
-   background-size: cover;
-   background-repeat: no-repeat;
-   background-position: right;
-   margin: 0 0;
-   display: flex;
 
-}
 
 .intro {
 
@@ -180,6 +170,16 @@ footer p {
 
    margin-left: 400px;
    font-size: 25px;
+}
+
+.image_back {
+   background-image: url(./assets/images/background_imageP.png)!important;
+   background-size: 100px 400vh; 
+   background-repeat: no-repeat;
+   background-position: right;
+  
+   
+  
 }
 
 @media screen and (min-width: 992px) {
