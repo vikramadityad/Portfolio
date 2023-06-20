@@ -1,4 +1,4 @@
-body {
+ body {
    box-sizing: border-box;
    padding: 0;
    margin: 0;
@@ -23,8 +23,7 @@ html {
 header {
    display: block;
    justify-content: center;
-   font-family: Georgia, 'Roboto', Open Sans, Helvetica Neue, sans-serif position: top: 0;
-   padding: 5px;
+   font-family: Georgia, 'Roboto', Open Sans, Helvetica Neue, sans-serif;
 }
 
 .name {
@@ -63,35 +62,23 @@ li {
 
 }
 
-.fig {
+
+.image_back {
    display: flex;
    flex-wrap: wrap;
    justify-content: center;
-   position: relative;
    text-align: center;
-   z-index: 0;
+  
 
 }
 
-.fig {
-   background-image: url(/assets/images/background_imageP.png);
-   height: 754px;
-   width: 100%;
-   background-size: cover;
-   background-repeat: no-repeat;
-   background-position: right;
-   margin: 0 0;
-   display: flex;
 
-}
 
 .intro {
 
    left: 0px;
    font-size: 50px;
-   color:var(--toolbox)
-
-
+   color: var(--toolbox)
 }
 
 p {
@@ -102,7 +89,7 @@ p {
 .About {
    margin: 10px 5px 10px 25px;
    font-size: 40px;
-} 
+}
 
 .Projects {
    display: flex;
@@ -185,6 +172,16 @@ footer p {
    font-size: 25px;
 }
 
+.image_back {
+   background-image: url(./assets/images/background_imageP.png)!important;
+   background-size: 100px 400vh; 
+   background-repeat: no-repeat;
+   background-position: right;
+  
+   
+  
+}
+
 @media screen and (min-width: 992px) {
    main {
       flex-direction: row;
@@ -204,9 +201,10 @@ footer p {
 
 @media screen and (max-width: 768px) {
 
-   main,
-   {
-   flex-direction: row;
+   main {
 
-}
+      flex-direction: row;
+   }
+   
+
 }
